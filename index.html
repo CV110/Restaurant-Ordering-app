@@ -1,9 +1,12 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+        <!-- meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div class="container" id="container">
@@ -32,33 +35,31 @@
                 
             </section>
             <div class="form-container" id="form-container">
-            <form id="pay-form">
-                <input
-                    type="text"
-                    placeholder="Enter your name"
-                    name= "name"
-                    id="nameForm"
-                    required
-                    >
-                <input
-                    type="number"
-                    placeholder="Enter your card number"
-                    name= "cardNumber"
-                    id="cardForm"
-                    required
-                    >
-                <input
-                    type="number"
-                    placeholder="Enter your CVV"
-                    name= "cvv"
-                    id="cvvForm"
-                    required
-                    
-                    >
-                <button id="pay-btn">Pay</button>
-            </form>
-            
-        </div>
+                <form id="pay-form">
+                    <input
+                        type="text"
+                        placeholder="Enter your name"
+                        name= "name"
+                        id="nameForm"
+                        required
+                        >
+                    <input
+                        type="number"
+                        placeholder="Enter your card number"
+                        name= "cardNumber"
+                        id="cardForm"
+                        required
+                        >
+                    <input
+                        type="number"
+                        placeholder="Enter your CVV"
+                        name= "cvv"
+                        id="cvvForm"
+                        required
+                        >
+                    <button id="pay-btn">Pay</button>
+                </form>
+            </div>
         </div>
         
 	    <script src="index.js" type="module"></script>
